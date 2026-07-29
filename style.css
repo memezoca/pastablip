@@ -1,6 +1,11 @@
 body {
-    background-color: rgba(210, 172, 98, 0.889);
+    background-color: rgba(209, 166, 185, 0.889);
 }
 h1 {
-    color: black;
+    color: rgb(108, 20, 20);
+    font-style:italic ;
+}
+
+h2 {
+    color:black;
 }
