@@ -1,14 +1,25 @@
 body {
     background-color: rgba(209, 166, 185, 0.889);
+    text-align: center;
 }
 h1 {
     color: rgb(108, 20, 20);
     font-style:italic ;
+    font-weight: 300;
 }
 
 h2 {
     color:black;
+    font-style: normal;
 }
 .banda {
     width: 45;
+    text-align: center;
+}
+
+.lista {
+    text-align: right;
+    font-style: normal;
+    text-decoration: overline;
+    color: white;
 }
