@@ -52,8 +52,6 @@ h2 {
 }
 
 
-/* ORGANIZAÇÃO DAS CARTAS */
-
 .container-cartas {
     display: flex;
     justify-content: center;
@@ -61,8 +59,6 @@ h2 {
     gap: 35px;
 }
 
-
-/* CARTA 3D */
 
 .carta {
     width: 260px;
@@ -79,9 +75,6 @@ h2 {
     transform: translateY(-10px);
 }
 
-
-/* PARTE INTERNA */
-
 .carta-interna {
     width: 100%;
     height: 100%;
@@ -95,17 +88,13 @@ h2 {
 }
 
 
-/* QUANDO A CARTA VIRA */
-
 .carta.virada .carta-interna {
     transform: rotateY(180deg);
 }
 
 
-/* FRENTE E VERSO */
-
 .carta-frente,
-.carta-verso {
+    .carta-verso {
     position: absolute;
 
     width: 100%;
@@ -127,8 +116,6 @@ h2 {
         0 0 20px rgba(255, 105, 180, 0.3);
 }
 
-
-/* FRENTE */
 
 .carta-frente {
     background: #fff0fa;
@@ -152,8 +139,6 @@ h2 {
     font-size: 12px;
 }
 
-
-/* VERSO */
 
 .carta-verso {
     background: linear-gradient(
@@ -201,17 +186,12 @@ h2 {
         0 15px 35px rgba(255, 0, 150, 0.4),
         0 0 30px rgba(255, 0, 200, 0.5);
 }
-
-
-/* ACESSIBILIDADE */
-
+    
 .carta:focus-visible {
     outline: 3px solid #8a0080;
     outline-offset: 6px;
 }
 
-
-/* RESPONSIVIDADE */
 
 @media (max-width: 768px) {
 
